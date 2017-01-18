@@ -53,6 +53,10 @@ module.exports = {
     {{/lint}}
     loaders: [
       {
+        test: /\.less$/,
+        loader: "style!css!less"
+      },
+      {
         test: /\.vue$/,
         loader: 'vue'
       },
