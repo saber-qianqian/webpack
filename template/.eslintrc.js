@@ -40,6 +40,9 @@ module.exports = {
       'vue': 'never'
     }],
     {{/if_eq}}
+    // allow tabs
+    'no-tabs': 0,
+    'indent': 0,
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
